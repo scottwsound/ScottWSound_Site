@@ -1,0 +1,22 @@
+#home-page-container {
+    background-color: white;
+    color: rgb(68, 88, 70);
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#home-page-image-container {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-logo {
+    
+}
