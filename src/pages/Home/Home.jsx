@@ -11,6 +11,8 @@ export default function Home() {
       </div>
       
       <div className="page-subtitle" id="home-page-subtitle">Production Sound Mixer + Sound Designer</div>
+      <br></br>
+      <div className="page-text">Greater Chicago</div>
       
     </div>
   );

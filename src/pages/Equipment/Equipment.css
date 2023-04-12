@@ -1,0 +1,37 @@
+#equipment-page-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: flex-start;
+}
+
+
+.package-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: var(--secondary);
+    color: var(--primary);
+    width: 75%;
+    height: 75%;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+}
+
+.package-container > * {
+    text-align: left;
+    width: 75%;
+}
+
+.package-name {
+    padding-top: 3%;
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 1px solid;
+}
+
+
+
+

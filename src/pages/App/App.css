@@ -1,14 +1,25 @@
+:root {
+  --primary: rgb(68, 88, 70);
+  /* --primary: rgb(11, 37, 89); */
+  --secondary: #ffffff;
+  --accent: rgb(11, 37, 89);
+  --body-text: #ffffff;
+  --accent-text: rgb(68, 88, 70);
+  --logo-text-color: rgb(54, 75, 70);
+  --box-shadow: 0 0 20px rgb(48, 48, 48);
+}
+
 
 .App {
   height: 100vh;
   width: 100vw;
-  color: white;
+  color: var(--body-text);
   text-align: center;
-  /* background-color: rgb(11, 37, 89); */
-  background-color: rgb(68, 88, 70);
+  background-color: var(--primary);
   animation: fadeIn ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+
 }
 
 @keyframes fadeIn {
@@ -41,7 +52,7 @@
   animation: fadeIn ease 1.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  background-color: rgb(68, 88, 70);
+  background-color: var(--primary);
 }
 
 .page-container > * {
@@ -55,7 +66,6 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  border: solid yellow;
 }
 
 .page-content > * {
@@ -68,10 +78,6 @@
   padding: 1%;
 }
 
-.page-content > * > * {
-  width: 100%;
-}
-
 .page-subtitle {
   font-size: 25px;
 }
@@ -79,8 +85,8 @@
 .page-image {
   height: 500px;
   width: 500px;
-  background-color: white;
-  box-shadow: 0 0 20px rgb(48, 48, 48);
+  background-color: var(--secondary);
+  box-shadow: var(--box-shadow);
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -106,4 +112,32 @@ ul {
 
 li {
   padding: 1%;
+}
+
+.links-container{
+  height: 20%;
+  padding-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-link {
+  color: var(--secondary);
+  border: 1px solid var(--secondary);
+  border-radius: 5px;
+  padding: 5px;
+  height: 28px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: var(--box-shadow);
+}
+
+.page-link:hover {
+  font-size: medium;
+  background-color: var(--secondary);
+  color: var(--primary);
+  border: 1px solid var(--secondary);
 }

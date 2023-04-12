@@ -30,7 +30,8 @@ export default function Contact() {
                 &nbsp;
                 swietrz@gmail.com
               </a>
-              
+              &nbsp;
+              &nbsp;
               <a href="tel:224-465-6568" className="cta">
                 <img src={phone} className="icon"/>
                 &nbsp;
@@ -55,13 +56,17 @@ export default function Contact() {
           </ul>
         </div>
 
-        <div className="contactInfo">
+        <div className="contact-links-container">
           <a href="https://www.linkedin.com/in/scott-wietrzykowski-b17a54157/">
             <img src={linkedin} className="icon" />
           </a>
+          &nbsp;
+          &nbsp;
           <a href="https://m.facebook.com/swietr/">
             <img src={facebook} className="icon" />
           </a>
+          &nbsp;
+          &nbsp;
           <a href="https://www.instagram.com/dubscribble/">
             <img src={instagram} className="icon" />
           </a>

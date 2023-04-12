@@ -1,7 +1,6 @@
 #home-page-container {
-    background-color: white;
-    color: rgb(68, 88, 70);
-    font-size: 25px;
+    background-color: var(--secondary);
+    color: var(--primary);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -15,8 +14,4 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-#home-logo {
-    
 }

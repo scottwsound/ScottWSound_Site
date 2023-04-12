@@ -16,17 +16,7 @@ export default function About() {
               I'm a production sound mixer and sound designer specializing in production sound recording, field recording and SFX editing, sound design, and re-recording mixing.
             </div>
             <div>
-              I'm based out of Chicago and am available for projects in the greater Chicago area.
-            </div>
-
-            <div>
-              <ul>Skills:
-                <br/>
-                <br/>
-                <li>skill 1</li>
-                <li>skill 2</li>
-                <li>skill 3</li>
-              </ul>
+              I'm available for projects in the greater Chicago area.
             </div>
             
           </div>

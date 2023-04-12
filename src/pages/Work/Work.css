@@ -1,0 +1,23 @@
+#work-page-content {
+    padding-top: 20%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+    border: solid pink;
+}
+
+.work-example-container {
+    height: auto;
+    width: auto;
+    border: solid red;
+}
+
+iframe {
+    box-shadow: var(--box-shadow);
+}
+
+
+
