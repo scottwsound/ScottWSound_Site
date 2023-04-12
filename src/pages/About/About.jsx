@@ -1,5 +1,6 @@
 import "./About.css";
 import headshot from "../../images/headshot.jpeg"
+import {Link} from "react-router-dom";
 
 export default function About() {
     return (
@@ -17,6 +18,10 @@ export default function About() {
             </div>
             <div>
               I'm available for projects in the greater Chicago area.
+            </div>
+
+            <div className="links-container">
+              <Link to="/contact" className="page-link">get in touch</Link>
             </div>
             
           </div>

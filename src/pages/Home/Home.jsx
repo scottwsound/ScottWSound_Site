@@ -10,7 +10,7 @@ export default function Home() {
         <img id="home-logo" src={logo}></img>
       </div>
       
-      <div className="page-subtitle" id="home-page-subtitle">Production Sound Mixer + Sound Designer</div>
+      <div className="page-subtitle typing-effect" id="home-page-subtitle">Production Sound Mixer + Sound Designer</div>
       <br></br>
       <div className="page-text">Greater Chicago</div>
       
