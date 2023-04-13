@@ -28,9 +28,6 @@ export default function NavBar() {
         <div className={activeLinkClass('/about')}>
           <Link to="/about">about</Link>
         </div>
-        <div className={activeLinkClass('/contact')}>
-          <Link to="/contact">contact</Link>
-        </div>
         <div className={activeLinkClass('/credits')}>
           <Link to="/credits">credits</Link>
         </div>
@@ -39,6 +36,9 @@ export default function NavBar() {
         </div>
         <div className={activeLinkClass('/work')}>
           <Link to="/work">work</Link>
+        </div>
+        <div className={activeLinkClass('/contact')}>
+          <Link to="/contact">contact</Link>
         </div>
         
       </div>

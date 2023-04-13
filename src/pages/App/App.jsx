@@ -17,10 +17,10 @@ export default function App() {
       <Routes>
         <Route path="/" element={ <Home /> } />
         <Route path="/about" element={ <About /> } />
-        <Route path="/contact" element={ <Contact /> } />
         <Route path="/credits" element={ <Credits /> } />
         <Route path="/equipment" element={ <Equipment /> } />
         <Route path="/work" element={ <Work /> } />
+        <Route path="/contact" element={ <Contact /> } />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
