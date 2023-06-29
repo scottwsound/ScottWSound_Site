@@ -28,9 +28,9 @@ export default function NavBar() {
         <div className={activeLinkClass('/about')}>
           <Link to="/about">about</Link>
         </div>
-        <div className={activeLinkClass('/credits')}>
+        {/* <div className={activeLinkClass('/credits')}>
           <Link to="/credits">credits</Link>
-        </div>
+        </div> */}
         <div className={activeLinkClass('/equipment')}>
           <Link to="/equipment">equipment</Link>
         </div>

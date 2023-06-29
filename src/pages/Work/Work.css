@@ -1,20 +1,38 @@
-#work-page-content {
+#work-page-container {
+    all: revert;
     height: 100%;
-    padding-top: 10%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    justify-items: center;
-    align-items: flex-start;
 }
 
-.work-example-container {
-    height: auto;
-    width: auto;
+#work-page-content {
+    all: revert;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#imdb-page-link {
+    height: 28px;
+    padding: 10px;
+}
+
+.youtube {
+    height: 360px;
+    margin: 1%;
+}
+
+.vimeo {
+    height: 360px;
+    margin: 1%;
 }
 
 iframe {
     box-shadow: var(--box-shadow);
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
 }
 
 

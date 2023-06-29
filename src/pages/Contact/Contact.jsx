@@ -5,6 +5,7 @@ import instagram from "../../images/instagram.png"
 import email from "../../images/email.png"
 import phone from "../../images/phone.png"
 import {useState} from "react";
+import imdb from "../../images/imdb.png"
 
 export default function Contact() {
   const [activeClass, setActiveClass] = useState("inactive")
@@ -18,7 +19,9 @@ export default function Contact() {
       
       <div className="page-content" id="contact-page-content">
 
-        <div className="page-subtitle">Interested in working together?</div>
+        <div className="page-subtitle">
+          Interested in working together?
+        </div>
         
 
         <div className={activeClass} onClick={handleClick} >
@@ -69,6 +72,11 @@ export default function Contact() {
           &nbsp;
           <a href="https://www.instagram.com/dubscribble/">
             <img src={instagram} className="icon" />
+          </a>
+          &nbsp;
+          &nbsp;
+          <a href="https://www.imdb.com/name/nm7842959/" className="icon-link" id="imdb-container">
+            <img src={imdb} className="icon" />
           </a>
         </div>
 

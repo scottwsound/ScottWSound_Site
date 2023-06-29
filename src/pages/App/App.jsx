@@ -4,7 +4,7 @@ import Footer from '../../components/Footer/Footer';
 import Home from '../Home/Home';
 import About from '../About/About';
 import Contact from '../Contact/Contact';
-import Credits from '../Credits/Credits';
+// import Credits from '../Credits/Credits';
 import Equipment from '../Equipment/Equipment';
 import Work from '../Work/Work';
 import NotFound from '../NotFound/NotFound';
@@ -17,7 +17,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={ <Home /> } />
         <Route path="/about" element={ <About /> } />
-        <Route path="/credits" element={ <Credits /> } />
+        {/* <Route path="/credits" element={ <Credits /> } /> */}
         <Route path="/equipment" element={ <Equipment /> } />
         <Route path="/work" element={ <Work /> } />
         <Route path="/contact" element={ <Contact /> } />

@@ -1,21 +1,20 @@
 #equipment-page-content {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     justify-items: center;
     align-items: flex-start;
 }
 
-
 .package-container {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-items: center;
     background-color: var(--secondary);
     color: var(--primary);
-    width: 75%;
-    height: 75%;
+    width: 500px;
+    height: 500px;
     border-radius: 5px;
     box-shadow: var(--box-shadow);
 }
@@ -26,7 +25,7 @@
 }
 
 .package-name {
-    padding-top: 3%;
+    padding: 20px;
     text-align: center;
     font-size: 25px;
     border-bottom: 1px solid;
