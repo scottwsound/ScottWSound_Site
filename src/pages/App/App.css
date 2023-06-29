@@ -153,3 +153,35 @@ li {
   color: var(--primary);
   border: 1px solid var(--secondary);
 }
+
+.arrows-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between !important;
+  align-items: center;
+}
+
+.arrow {
+  height: 20px;
+}
+
+.left-arrow {
+  transform: rotate(180deg);
+}
+
+.arrow:hover {
+  transform: scale(1.25);
+}
+
+.left-arrow:hover {
+  transform: rotate(180deg) scale(1.25);
+}
+
+.arrow:active {
+  transform: scale(1);
+}
+
+.left-arrow:active {
+  transform: rotate(180deg) scale(1);
+}

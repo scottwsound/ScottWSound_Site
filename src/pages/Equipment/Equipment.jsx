@@ -1,17 +1,34 @@
 import "./Equipment.css"
 import {Link} from "react-router-dom";
 import { useState } from "react";
+import arrow from '../../images/right-arrow.png'
 import equipment1 from '../../images/equipment1.jpg'
-// import equipment2 from '../../images/equipment2.jpg'
-// import equipment3 from '../../images/equipment3.jpg'
-// import equipment4 from '../../images/equipment4.jpg'
-// import equipment5 from '../../images/equipment5.jpg'
+import equipment2 from '../../images/equipment2.jpg'
+import equipment3 from '../../images/equipment3.jpeg'
+import equipment4 from '../../images/equipment4.jpeg'
+import equipment5 from '../../images/equipment5.jpeg'
 
 export default function Equipment() {
-  const [slide, setSlide] = useState(equipment1)
 
-  const slideshow = function() {
-    
+  const [currentImage, setCurrentImage] = useState(equipment1)
+  const carousel = [equipment1, equipment2, equipment3, equipment4, equipment5]
+
+  const back = function() {
+    const idx = carousel.indexOf(currentImage)
+    if (idx === 0) {
+      setCurrentImage(carousel[carousel.length - 1])
+    } else {
+      setCurrentImage(carousel[idx - 1])
+    }
+  }
+
+  const forward = function() {
+    const idx = carousel.indexOf(currentImage)
+    if (idx === carousel.length - 1) {
+      setCurrentImage(carousel[0])
+    } else {
+      setCurrentImage(carousel[idx + 1])
+    }
   }
 
     return (
@@ -24,9 +41,9 @@ export default function Equipment() {
 
           
           <div className="package-container">
-            <div className="package-name">
+            <h1 className="package-name">
               Basic Equipment Package
-            </div>
+            </h1>
             <ul>
               <li>8-channel Sound Devices mixer/recorder</li>
               <li>2 Lectrosonics wireless packs with professional quality lavalier microphones</li>
@@ -39,8 +56,12 @@ export default function Equipment() {
           </div>
 
           <div className="page-image">
-            <div  className="image-wrapper">
-            <img className="image" src={slide} />
+            <div className="image-wrapper">
+              <img className="image" src={currentImage} />
+            </div>
+            <div className="arrows-container">
+              <img src={arrow} className="arrow left-arrow" onClick={back}/>
+              <img src={arrow} className="arrow right-arrow" onClick={forward}/>
             </div>
           </div>
 

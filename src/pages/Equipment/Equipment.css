@@ -1,8 +1,6 @@
 #equipment-page-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    justify-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: flex-start;
 }
 

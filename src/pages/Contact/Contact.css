@@ -4,8 +4,8 @@
 
 .active {
     height: 0;
+    margin-bottom: 40px;
 }
-
 
 .inactive {
     background-color: var(--secondary);
@@ -16,8 +16,10 @@
     align-items: center;
     border-radius: 50px;
     height: 0;
-    border: 2px solid var(--drop-shadow);
+    border: 2px solid var(--secondary);
+    box-shadow: var(--box-shadow);
     width: 40%;
+    margin-bottom: 40px;
 }
 
 .inactive:hover {

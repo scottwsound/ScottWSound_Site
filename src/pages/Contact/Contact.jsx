@@ -19,9 +19,9 @@ export default function Contact() {
       
       <div className="page-content" id="contact-page-content">
 
-        <div className="page-subtitle">
+        <h1 className="page-subtitle">
           Interested in working together?
-        </div>
+        </h1>
         
 
         <div className={activeClass} onClick={handleClick} >
