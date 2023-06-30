@@ -32,8 +32,8 @@ export default function Equipment() {
   }
 
     return (
-      <div className="page-container">
-        <div className="links-container">
+      <div className="page-container" id="equipment-page-container">
+        <div className="links-container" id="equipment-links-container">
           <Link to="/contact" className="page-link">get a quote</Link>
         </div>
         
@@ -55,7 +55,7 @@ export default function Equipment() {
             </div>
           </div>
 
-          <div className="page-image">
+          <div className="page-image" id="equipment-page-image">
             <div className="image-wrapper">
               <img className="image" src={currentImage} />
             </div>

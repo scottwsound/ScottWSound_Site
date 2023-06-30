@@ -29,7 +29,7 @@ export default function About() {
   }
 
     return (
-      <div className="page-container">
+      <div className="page-container" id="about-page-container">
         <div className="page-content" id="about-page-content">
           
           <div className="page-image">
@@ -44,16 +44,17 @@ export default function About() {
           
           <div  className="page-text">
             <h1 className="page-subtitle">
-              Meet Scott
+              Meet Scott.
             </h1>
+            <br/>
             <div>
-            Scott is a Chicago-based location sound recordist with 8+ years of experience providing professional recording services to a wide variety of productions. His expertise spans all positions within the sound department, and his experience spans all levels of production, from small short films documentaries, and internal corporate videos, to commercials, feature films, and large scale network television programs. 
-
+              Scott is a Chicago-based location sound recordist with 8+ years of experience providing professional recording services to a wide variety of productions. His expertise spans all positions within the sound department, and his experience spans all levels of production, from small short films documentaries, and internal corporate videos, to commercials, feature films, and large scale network television programs.
             </div>
+            <br/>
             <div>
-            Scott earned a Bachelor of Arts in Digital Cinema, with a concentration in Sound, from DePaul University in Chicago, Illinois, and has been working in the local industry ever since. Before setting out on his own as a full time freelancer, he spent a number of years as a technician at a local sound equipment rental house, where he was able to gain unique experience and expand his equipment expertise. When not on set, he enjoys cooking, and spending time with his cats.
+              Scott earned a Bachelor of Arts in Digital Cinema, with a concentration in Sound, from DePaul University in Chicago, Illinois, and has been working in the local industry ever since. Before setting out on his own as a full time freelancer, he spent a number of years as a technician at a local sound equipment rental house, where he was able to gain unique experience and expand his equipment expertise. When not on set, he enjoys cooking, and spending time with his cats.
             </div>
-
+            <br/>
             <div className="links-container">
               <Link to="/contact" className="page-link">get in touch</Link>
             </div>

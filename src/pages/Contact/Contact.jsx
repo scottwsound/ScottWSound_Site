@@ -19,7 +19,7 @@ export default function Contact() {
       
       <div className="page-content" id="contact-page-content">
 
-        <h1 className="page-subtitle">
+        <h1 className="page-subtitle" id="contact-page-subtitle">
           Interested in working together?
         </h1>
         
@@ -47,7 +47,7 @@ export default function Contact() {
           
         </div>
 
-        <div  className="page-text">
+        <div className="page-text" id="contact-page-text">
           <ul>Please include the below information to receive an accurate quote:
             <br/>
             <br/>

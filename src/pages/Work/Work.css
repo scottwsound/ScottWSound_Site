@@ -4,16 +4,30 @@
     justify-content: flex-start;
     align-items: center;
     position: relative;
+
+    @media only screen and (max-width: 750px) {
+        justify-content: space-evenly;
+    }
 }
 
 .youtube {
     height: 500px;
     z-index: 1;
+
+    @media only screen and (max-width: 750px) {
+        height: 400px;
+        width: 90%;
+    }
 }
 
 .vimeo {
     height: 500px;
     z-index: 1;
+
+    @media only screen and (max-width: 750px) {
+        height: 400px;
+        width: 90%;
+    }
 }
 
 iframe {
@@ -21,6 +35,8 @@ iframe {
     background: var(--secondary);
     border-radius: 5px;
     z-index: 1;
+
+    @media only screen and (max-width: 750px) {}
 }
 
 .about-video {
@@ -32,6 +48,11 @@ iframe {
     border-radius: 5px;
     height: 500px;
     z-index: 1;
+
+    @media only screen and (max-width: 750px) {
+        height: 400px;
+        width: 90%;
+    }
 }
 
 #work-page-arrows-container {
@@ -39,6 +60,14 @@ iframe {
     width: 60%;
     height: 500px;
     justify-content: space-between;
+
+    @media only screen and (max-width: 750px) {
+        height: 20px;
+        top: 5%;
+        left: 50%;
+        width: 90%;
+        transform: translate(-50%, -50%);
+    }
 }
 
 .work-page-arrow {
@@ -47,6 +76,11 @@ iframe {
     padding: 10px;
     border-radius: 50%;
     box-shadow: var(--box-shadow);
+
+    @media only screen and (max-width: 750px) {
+        height: 40px;
+        width: 40px;
+    }
 }
 
 

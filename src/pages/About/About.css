@@ -1,7 +1,18 @@
+#about-page-container {
+    @media only screen and (max-width: 750px) {
+        height: 1100px;
+    }
+}
+
 #about-page-content {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
+    @media only screen and (max-width: 750px) {
+        flex-direction: column;
+        margin-top: 75px;
+    }
 }
 
 #about-page-content > div:last-child {
@@ -11,5 +22,10 @@
     justify-content: space-evenly;
     align-items: flex-start;
     padding: 4%;
+
+    @media only screen and (max-width: 750px) {
+        width: 90%;
+        justify-content: center;
+    }
 }
 
