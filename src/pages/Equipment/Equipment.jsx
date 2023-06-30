@@ -33,6 +33,7 @@ export default function Equipment() {
 
     return (
       <div className="page-container" id="equipment-page-container">
+        
         <div className="links-container" id="equipment-links-container">
           <Link to="/contact" className="page-link">get a quote</Link>
         </div>
@@ -59,6 +60,7 @@ export default function Equipment() {
             <div className="image-wrapper">
               <img className="image" src={currentImage} />
             </div>
+            
             <div className="arrows-container">
               <img src={arrow} className="arrow left-arrow" onClick={back}/>
               <img src={arrow} className="arrow right-arrow" onClick={forward}/>

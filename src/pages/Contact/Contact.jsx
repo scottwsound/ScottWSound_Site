@@ -46,6 +46,9 @@ export default function Contact() {
           }
           
         </div>
+        <br/>
+        <br/>
+        <br/>
 
         <div className="page-text" id="contact-page-text">
           <ul>Please include the below information to receive an accurate quote:

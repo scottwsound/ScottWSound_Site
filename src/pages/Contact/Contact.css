@@ -1,12 +1,12 @@
 #contact-page-content {
-    @media only screen and (max-width: 750px) {
+    @media only screen and (max-width: 1200px) {
         position: relative;
     }
 }
 
 #contact-page-subtitle {
 
-    @media only screen and (max-width: 750px) {
+    @media only screen and (max-width: 1200px) {
         position: absolute;
         top: 8%;
         left: 50%;
@@ -20,11 +20,11 @@
     height: 0;
     margin-bottom: 40px;
     position: absolute;
-    top: 35%;
+    top: 33%;
     left: 50%;
     transform: translate(-50%, -50%);
 
-    @media only screen and (max-width: 750px) {
+    @media only screen and (max-width: 1200px) {
         height: 100px;
         position: absolute;
         top: 22%;
@@ -37,7 +37,7 @@
     background-color: var(--secondary);
     color: var(--primary);
     position: absolute;
-    top: 35%;
+    top: 33%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50px;
@@ -46,7 +46,7 @@
     box-shadow: var(--box-shadow);
     width: 40%;
 
-    @media only screen and (max-width: 750px) {
+    @media only screen and (max-width: 1200px) {
         height: 40px;
         width: 350px;
         position: absolute;
@@ -92,7 +92,8 @@ img.icon:hover {
 }
 
 #contact-page-text {
-    @media only screen and (max-width: 750px) {
+
+    @media only screen and (max-width: 1200px) {
         position: absolute;
         top: 57%;
         left: 50%;
@@ -106,7 +107,7 @@ img.icon:hover {
 .contact-links-container {
     align-items: center;
 
-    @media only screen and (max-width: 750px) {
+    @media only screen and (max-width: 1200px) {
         position: absolute;
         top: 90%;
         left: 50%;
