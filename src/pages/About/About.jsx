@@ -1,14 +1,15 @@
 import "./About.css";
 import { useState } from "react";
-import scott1 from '../../images/scott1.jpg'
+import scott1 from '../../images/scott1.png'
 import scott2 from '../../images/scott2.jpg'
 import scott3 from '../../images/scott3.jpeg'
+import cat from '../../images/equipment2.jpg'
 import {Link} from "react-router-dom";
 import arrow from '../../images/right-arrow.png'
 
 export default function About() {
   const [currentImage, setCurrentImage] = useState(scott2)
-  const carousel = [scott1, scott2, scott3]
+  const carousel = [scott1, scott2, scott3, cat]
 
   const back = function() {
     const idx = carousel.indexOf(currentImage)

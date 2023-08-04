@@ -19,7 +19,7 @@ export default function Work() {
         Many of the players do not speak English, and rely on select teammates for translation. This film is a glimpse into their 2016 playoff run, and serves as a look into the passion and love these young men have for the sport that has helped them persevere through so much.
       </p>
       <div className="links-container">
-        <a href="https://vimeo.com/247378786/4b5947d107?embedded=true&source=vimeo_logo&owner=33587629" className="page-link">
+        <a href="https://vimeo.com/247378786/4b5947d107?embedded=true&source=vimeo_logo&owner=33587629" className="page-link" id="sullivan-vimeo-link">
           Watch Sullivan on Vimeo
         </a>
       </div>

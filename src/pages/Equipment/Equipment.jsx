@@ -3,15 +3,15 @@ import {Link} from "react-router-dom";
 import { useState } from "react";
 import arrow from '../../images/right-arrow.png'
 import equipment1 from '../../images/equipment1.jpg'
-import equipment2 from '../../images/equipment2.jpg'
+// import equipment2 from '../../images/equipment2.jpg'
 import equipment3 from '../../images/equipment3.jpeg'
-import equipment4 from '../../images/equipment4.jpeg'
-import equipment5 from '../../images/equipment5.jpeg'
+// import equipment4 from '../../images/equipment4.jpeg'
+// import equipment5 from '../../images/equipment5.jpeg'
 
 export default function Equipment() {
 
   const [currentImage, setCurrentImage] = useState(equipment1)
-  const carousel = [equipment1, equipment2, equipment3, equipment4, equipment5]
+  const carousel = [equipment1, equipment3]
 
   const back = function() {
     const idx = carousel.indexOf(currentImage)

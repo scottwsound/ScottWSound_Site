@@ -43,17 +43,32 @@ iframe {
     flex-direction: column;
     justify-content: space-evenly;
     box-shadow: var(--box-shadow);
-    border: 1px solid var(--secondary);
-    color: var(--secondary);
+    border: 1px solid var(--primary);
+    color: var(--primary);
     border-radius: 5px;
     height: 500px;
     z-index: 1;
+    background: var(--secondary);
 
     @media only screen and (max-width: 1200px) {
         height: 400px;
         width: 90%;
     }
 }
+
+#sullivan-vimeo-link {
+    background: var(--primary);
+    color: var(--secondary);
+}
+
+#sullivan-vimeo-link:hover {
+    color: var(--primary);
+    background: var(--secondary);
+    border: 1px solid var(--primary);
+
+}
+
+
 
 #work-page-arrows-container {
     position: absolute;
